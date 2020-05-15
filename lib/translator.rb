@@ -17,8 +17,8 @@ end
 
 def get_english_meaning(file_path, emoticon)
   # code goes here
-  emoticon = load_library(file_path)
-  result = emoticon[meaning][:english]
+  emoticons = load_library(file_path)
+  result = emoticons[meaning][:english]
   binding.pry
 end
 
