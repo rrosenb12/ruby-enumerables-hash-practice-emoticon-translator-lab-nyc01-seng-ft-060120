@@ -17,7 +17,8 @@ end
 
 def get_english_meaning(file_path, emoticon)
   # code goes here
-  result = load_library(file_path)
+  new_hash = load_library(file_path)
+  if
   binding.pry
 end
 
