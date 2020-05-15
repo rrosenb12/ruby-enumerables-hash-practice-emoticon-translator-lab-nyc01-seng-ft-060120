@@ -9,8 +9,8 @@ def load_library(file_path)
   new_hash = Hash.new
   new_hash[:meaning] = {}
     binding.pry
-  # new_hash[:japanese] = {}
-  # new_hash[:english] = {}
+  # new_hash[:meaning][:japanese] = {}
+  # new_hash[:meaning][:english] = {}
   emoticon_library.each do |meaning, emoticon|
     # new_hash[:english] = emoticon[0]
     # new_hash[:japanese] = emoticon[1]
