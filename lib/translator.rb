@@ -7,7 +7,7 @@ def load_library(file_path)
   emoticon_library = YAML.load(File.read('./lib/emoticons.yml')) #automatically creates a hash
   emoticon_library do |meaning, emoticon|
   binding.pry
-
+end
 end
 
 def get_japanese_emoticon
