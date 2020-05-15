@@ -9,7 +9,7 @@ def load_library(file_path)
   binding.pry
   emoticon_library.each do |meaning, emoticon|
   # emoticon_library = Hash.new
-    meaning => {}
+    # meaning => {}
   end
 end
 
