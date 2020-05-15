@@ -19,7 +19,7 @@ def get_english_meaning(file_path, emoticon)
   # code goes here
   new_hash = load_library(file_path)
   new_hash.keys.find do |meaning|
-    if new_hash[meaning][:japanese] = emoticon[1]
+    if new_hash[meaning][:japanese] == emoticon
       binding.pry
       return meaning
     end
