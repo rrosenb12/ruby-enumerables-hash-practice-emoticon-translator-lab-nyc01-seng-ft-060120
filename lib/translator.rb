@@ -1,7 +1,7 @@
 # require modules here
 require 'yaml'
 
-def load_library
+
   # code goes here
 def load_library(path)
   emoticons = {"get_meaning" => {}, "get_emoticon" => {}}
