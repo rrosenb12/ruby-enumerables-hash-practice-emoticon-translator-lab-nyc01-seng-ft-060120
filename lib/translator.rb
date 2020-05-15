@@ -11,7 +11,6 @@ def load_library(file_path)
     new_hash[meaning] = {}
     new_hash[meaning][:english] = emoticon[0]
     new_hash[meaning][:japanese] = emoticon[1]
-    binding.pry
   end
   new_hash
 end
