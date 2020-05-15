@@ -22,6 +22,7 @@ def get_english_meaning(file_path, emoticon)
     return new_hash[meaning]
   binding.pry
 end
+end
 
 def get_japanese_emoticon(file_path, emoticon)
   # code goes here
