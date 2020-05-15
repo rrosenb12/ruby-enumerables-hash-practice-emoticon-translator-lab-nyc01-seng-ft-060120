@@ -19,7 +19,7 @@ def get_english_meaning(file_path, emoticon)
   # code goes here
   new_hash = load_library(file_path)
   if new_hash[meaning][:japanese]
-    return new_hash[meaning]
+    return new_hash.key
   end
 end
 
