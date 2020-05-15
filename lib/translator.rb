@@ -32,4 +32,7 @@ def get_japanese_emoticon(file_path, emoticon)
   new_hash.keys.find do |meaning|
     if new_hash[meaning][:english] == emoticon
       return new_hash[meaning][:japanese]
+    end
+  end
+  "Sorry, that emoticon was not found"
 end
