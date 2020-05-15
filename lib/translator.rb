@@ -21,6 +21,8 @@ def get_english_meaning(file_path, emoticon)
   new_hash.keys.find do |meaning|
     if new_hash[meaning][:japanese] == emoticon
       return meaning
+    else
+      
     end
   end
 end
