@@ -23,9 +23,8 @@ else
 end
 end
 
-def get_english_meaning
+def get_english_meaning(path, emoticon)
   # code goes here
-  def get_english_meaning(path, emoticon)
   emoticons = load_library(path)
   result = emoticons["get_meaning"][emoticon]
   if result
