@@ -1,7 +1,8 @@
 # require modules here
 require 'pry'
 require 'yaml'
-
+# grades = Hash.new
+# grades["Dorothy Doe"] = 9
 def load_library(file_path)
   # code goes here
   emoticon_library = YAML.load(File.read('./lib/emoticons.yml')) #automatically creates a hash
