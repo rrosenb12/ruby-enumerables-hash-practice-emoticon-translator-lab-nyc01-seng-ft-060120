@@ -23,6 +23,7 @@ def get_english_meaning(file_path, emoticon)
     return new_hash[meaning]
   end
 end
+end
 
 def get_japanese_emoticon
   # code goes here
