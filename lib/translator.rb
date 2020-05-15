@@ -8,6 +8,7 @@ def load_library(file_path)
   emoticon_library = YAML.load(File.read('./lib/emoticons.yml')) #automatically creates a hash
   new_hash = Hash.new
   new_hash[:meaning] = {}
+    binding.pry
   # new_hash[:japanese] = {}
   # new_hash[:english] = {}
   emoticon_library.each do |meaning, emoticon|
