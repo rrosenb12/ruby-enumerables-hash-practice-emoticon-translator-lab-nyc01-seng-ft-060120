@@ -18,7 +18,7 @@ end
 def get_english_meaning(file_path, emoticon)
   # code goes here
   new_hash = load_library(file_path)
-  new_hash.keys
+  new_hash.keys.find do |meaning|
   if new_hash[meaning][:japanese]
     return new_hash[meaning]
   end
