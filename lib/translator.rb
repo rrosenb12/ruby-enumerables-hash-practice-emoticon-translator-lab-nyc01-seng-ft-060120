@@ -15,12 +15,12 @@ def load_library(file_path)
   new_hash
 end
 
-def get_japanese_emoticon(file_path, emoticon)
-  # code goes here
-end
-
 def get_english_meaning(file_path, emoticon)
   # code goes here
   emoticon = load_library(file_path)
   emoticon = new_hash[meaning][:english]
+end
+
+def get_japanese_emoticon(file_path, emoticon)
+  # code goes here
 end
