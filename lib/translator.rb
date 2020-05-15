@@ -18,9 +18,6 @@ end
 def get_english_meaning(file_path, emoticon)
   # code goes here
   load_library(file_path)
-  if new_hash[meaning][:japanese]
-    return new_hash[meaning]
-  end
   binding.pry
 end
 
